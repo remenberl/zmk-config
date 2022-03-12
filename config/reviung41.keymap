@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 // https://github.com/Ardakilic/zmk-config/blob/master/config/reviung41.keymap#L13
-
+/*
 &spi1 {
    compatible = "nordic,nrf-spim";
    status = "okay";
@@ -48,6 +48,7 @@
       zmk,underglow = &led_strip;
    };
 };
+*/
 
 &lt {
   flavor = "hold-preferred";
